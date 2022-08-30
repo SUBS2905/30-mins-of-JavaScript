@@ -30,7 +30,14 @@ document.getElementById("name").addEventListener("keyup", () => {
     swal("This outfit suits you the most ❤").then((value) => {
       swal(`By the way ${x} looks good in all the outfits.`);
     });
-  } else {
+} else if (x == "DUA") {
+    document.querySelector("#main-img").setAttribute("src", "img/duaLipa.png");
+    document.querySelector("#main-img").style.height = "100%";
+    document.querySelector("#main-img").style.width = "100%";
+    swal("This outfit suits you the most ❤").then((value) => {
+      swal(`By the way ${x} is the sexiest of all 🥺👉🏻👈🏻.`);
+    });
+} else {
     let num = parseInt(Math.random() * 10);
     num = num.toString();
     console.log(num);
