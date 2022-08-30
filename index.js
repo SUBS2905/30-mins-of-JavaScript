@@ -32,8 +32,8 @@ document.getElementById("name").addEventListener("keyup", () => {
     });
 } else if (x == "DUA") {
     document.querySelector("#main-img").setAttribute("src", "img/duaLipa.png");
-    document.querySelector("#main-img").style.height = "100%";
-    document.querySelector("#main-img").style.width = "100%";
+    document.querySelector("#main-img").style.height = "60%";
+    document.querySelector("#main-img").style.width = "70%";
     swal("This outfit suits you the most ❤").then((value) => {
       swal(`By the way ${x} is the sexiest of all 🥺👉🏻👈🏻.`);
     });
